@@ -1,0 +1,10 @@
+# Ignore all class files
+*.class
+
+# Ignore specific directory
+build/
+
+# Ignore other typical files
+*.log
+*.tmp
+.DS_Store
