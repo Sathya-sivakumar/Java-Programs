@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form With Span</title>
+    <style>
+        .error-message {
+            color: red;
+            font-size: 0.9em;
+        }
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="email">Email: <span class="required">*</span></label>
+        <input type="email" id="email" name="email">
+        <span id="email-error" class="error-message">Please enter a valid email.</span>
+        
+        <label for="password">Password: <span class="required">*</span></label>
+        <input type="password" id="password" name="password">
+        <span id="password-error" class="error-message">Password must be at least 8 characters.</span>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

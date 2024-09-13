@@ -8,15 +8,15 @@ class DiamondX{
         for(int i=0;i<a;i++){
             for(int j=0;j<a;j++){
                 if(i==j){
-                    System.out.print("* ");
+                    System.out.print("*");
                 }
                 else if(j==(a-1-i))
                 {
-                    System.out.print("* ");
+                    System.out.print("*");
                 }
                 else 
                 {
-                    System.out.print("  ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
